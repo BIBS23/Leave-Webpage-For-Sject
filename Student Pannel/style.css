@@ -1,0 +1,194 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+/* * {
+    font-family: 'Rubik Bubbles', cursive;
+} */
+@media screen and (max-width:1440px) {
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #101728;
+        background-repeat: no-repeat;
+    }
+
+    .SubmitForm {
+        display: grid;
+        grid-gap: 1em;
+        padding: 1em;
+    }
+
+    #tf1 {
+        font-size: 16px;
+        padding: 10px;
+        width: 250px;
+        margin-left: 0;
+        grid-column: 2;
+        border: 1px solid#fd8191;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        /* background: rgba(20, 20, 20, .2); */
+        color: black;
+        outline: none;
+    }
+
+    #tf2 {
+        font-size: 16px;
+        padding: 10px;
+        width: 250px;
+        margin-left: 0;
+        margin-top: 5%;
+        grid-column: 2;
+        border: 1px solid#fd8191;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        /* background: rgba(20, 20, 20, .2); */
+        color: black;
+        outline: none;
+    }
+
+    #tf3 {
+        font-size: 16px;
+        padding: 10px;
+        width: 250px;
+        margin-left: 0;
+        margin-top: 5%;
+        grid-column: 2;
+        border: 1px solid#fd8191;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        /* background: rgba(20, 20, 20, .2); */
+        color: black;
+        outline: none;
+    }
+
+    #tf4 {
+        font-size: 16px;
+        padding: 10px;
+        width: 250px;
+        margin-left: 0;
+        margin-top: 5%;
+        grid-column: 2;
+        border: 1px solid#fd8191;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        /* background: rgba(20, 20, 20, .2); */
+        color: black;
+        outline: none;
+    }
+
+    #selectoption {
+        font-size: 16px;
+        padding: 10px;
+        width: 250px;
+        margin-left: 0;
+        margin-top: 5%;
+        grid-column: 2;
+        border: 1px solid#fd8191;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        /* background: rgba(20, 20, 20, .2); */
+        color: black;
+        outline: none;
+    }
+
+    .signupSection {
+        background: url(https://source.unsplash.com/TV2gg2kZD1o/1600x800);
+        background-repeat: no-repeat;
+        position: absolute;
+        margin-top: 22%;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+        width: 800px;
+        height: 550px;
+        text-align: center;
+        display: flex;
+        color: white;
+        box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5);
+    }
+
+    .info {
+        width: 45%;
+        /* background: rgba(20, 20, 20, .8); */
+        padding: 30px 0;
+        border-right: 5px solid rgba(30, 30, 30, .8);
+    }
+
+    .info h2 {
+        padding-top: 30px;
+        font-weight: 300;
+        font-family: 'Rubik Bubbles', cursive;
+
+    }
+
+    .info p {
+        font-size: 18px;
+        font-family: 'Rubik Bubbles', cursive;
+
+    }
+
+    .info .icon {
+        font-size: 8em;
+        padding: 20px 0;
+        color: rgba(10, 180, 180, 1);
+    }
+
+    .signupForm {
+        width: 70%;
+        padding: 30px 0;
+        background-image: linear-gradient(135deg, #F05F57 10%, #360940 100%);
+        transition: 0.2s;
+    }
+
+    .signupForm h2 {
+        font-weight: 300;
+        font-family: 'Rubik Bubbles', cursive;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    #join-btn {
+		border: 1px solid #fd8191;
+		background: rgba(20, 20, 20, .6);
+		font-size: 18px;
+		color: white;
+		margin-top: 20px;
+		margin-left: 8%;
+		padding: 10px 50px;
+		cursor: pointer;
+		transition: 0.4s;
+	}
+    .signupForm {
+		width: 150%;
+        height: 150%;
+		padding-right: 20%;
+        background-image: linear-gradient(#F05F57 );
+	}
+    .signupSection {
+        position: absolute;
+        margin-top: 59%;
+        margin-left: 40%;
+        transform: translate(-50%, -50%);
+        width: 800px;
+        height: 550px;
+        text-align: center;
+        display: flex;
+        color: white;
+
+    }
+   
+
+    
+
+
+}
