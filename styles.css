@@ -63,6 +63,7 @@
         padding-top: 15px;
         padding-left: 55px;
     }
+
     .leavbtn:hover {
         color: azure;
         background-image: linear-gradient(to left, #9340FF, #FF3C5F);
@@ -82,8 +83,10 @@
         color: yellow;
         padding-left: 18px;
     }
-    #navhead{
-        color:white;font-weight:400;
+
+    #navhead {
+        color: white;
+        font-weight: 400;
         padding-left: 1%;
 
     }
@@ -125,7 +128,8 @@
         padding-left: 3%;
         font-size: 70px;
     }
-    .leavbtn{
+
+    .leavbtn {
         width: 25%;
         height: 7%;
         position: absolute;
@@ -133,15 +137,18 @@
         top: 35%;
         margin-left: 18%;
     }
-    .leavbtn h6{
+
+    .leavbtn h6 {
         font-size: 25px;
         font-stretch: expanded;
         padding-top: 5%;
     }
-    #navhead{
-        color:white;font-weight:400;
+
+    #navhead {
+        color: white;
+        font-weight: 400;
         padding-left: 8%;
 
     }
-   
+
 }

@@ -153,27 +153,46 @@
         font-weight: 300;
         font-family: 'Rubik Bubbles', cursive;
     }
+
+    #join-btn {
+        border: 1px solid #fd8191;
+        background: rgba(20, 20, 20, .6);
+        font-size: 18px;
+        color: white;
+        margin-top: 20px;
+        margin-left: 8%;
+        padding: 10px 50px;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+    #join-btn:hover {
+        background-image: linear-gradient(135deg, #B91372 10%, #6B0F1A 100%);
+        padding: 10px 80px;
+    }
 }
 
 @media screen and (max-width:500px) {
 
     #join-btn {
-		border: 1px solid #fd8191;
-		background: rgba(20, 20, 20, .6);
-		font-size: 18px;
-		color: white;
-		margin-top: 20px;
-		margin-left: 8%;
-		padding: 10px 50px;
-		cursor: pointer;
-		transition: 0.4s;
-	}
+        border: 1px solid #fd8191;
+        background: rgba(20, 20, 20, .6);
+        font-size: 18px;
+        color: white;
+        margin-top: 20px;
+        margin-left: 8%;
+        padding: 10px 50px;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
     .signupForm {
-		width: 150%;
+        width: 150%;
         height: 150%;
-		padding-right: 20%;
-        background-image: linear-gradient(#F05F57 );
-	}
+        padding-right: 20%;
+        background-image: linear-gradient(#F05F57);
+    }
+
     .signupSection {
         position: absolute;
         margin-top: 59%;
@@ -186,9 +205,9 @@
         color: white;
 
     }
-   
 
-    
+
+
 
 
 }
