@@ -1,4 +1,57 @@
-@media only screen and (max-width: 1500px) {
+@media screen and (max-width:600px) {
+    .objects h1 {
+        color: white;
+        padding-left: 3%;
+        font-size: 70px;
+    }
+
+    .logo {
+        height: 10%;
+        width: 10%;
+        border-radius: 100%;
+    }
+
+    #navhead {
+        color: white;
+        font-weight: 400;
+        padding-left: 8%;
+    }
+
+    .leavbtn {
+        width: 40%;
+        height: 10%;
+        position: absolute;
+        top: 45%;
+        margin-left: 30%;
+        background-image: linear-gradient(to right, #9340FF, #FF3C5F);
+        border: none;
+        border-radius: 100px;
+        color: black;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .leavbtn:hover {
+        color: azure;
+        background-image: linear-gradient(to left, #9340FF, #FF3C5F);
+    }
+
+    .objects img {
+        padding-left: auto;
+        padding-top: auto;
+        grid-row: 2;
+        grid-column: 2;
+        z-index: 0;
+        position: relative;
+        opacity: 100%;
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (min-width:600px) {
+
     .form12 {
         border-radius: 50%;
         height: 50px;
@@ -118,37 +171,4 @@
     .gg-menu::after {
         top: 6px
     }
-}
-
-/* responsive web for mobiles */
-
-@media screen and (max-width: 991px) {
-    .objects h1 {
-        color: white;
-        padding-left: 3%;
-        font-size: 70px;
-    }
-
-    .leavbtn {
-        width: 25%;
-        height: 7%;
-        position: absolute;
-        background-color: yellow;
-        top: 35%;
-        margin-left: 18%;
-    }
-
-    .leavbtn h6 {
-        font-size: 25px;
-        font-stretch: expanded;
-        padding-top: 5%;
-    }
-
-    #navhead {
-        color: white;
-        font-weight: 400;
-        padding-left: 8%;
-
-    }
-
 }
