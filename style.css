@@ -18,7 +18,7 @@
     }
 
     .leavbtn {
-        width: 25vh;
+        width: 40vw;
         height: 10vh;
         position: absolute;
         top: 43%;
@@ -47,7 +47,6 @@
         text-align: center;
 
     }
-
 }
 
 @media screen and (min-width:600px) {
